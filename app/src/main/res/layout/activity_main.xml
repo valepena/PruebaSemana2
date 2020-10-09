@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        >
+    </View>
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="INGRESO DE DATOS"
+        android:textStyle="bold"
+        android:textSize="@dimen/botonsiguiente"
+        android:textColor="@color/blanco"
+        android:background="@color/colorPrimary"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/tvNombre"
+        android:layout_width="@dimen/nombrewidth"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/tvNombre"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="@dimen/nombre"
+        android:layout_marginTop="30dp"
+        >
+    </EditText>
+
+    <DatePicker
+        android:id="@+id/datepicker"
+        android:layout_width="@dimen/datepickerwidth"
+        android:layout_height="@dimen/datepickerheight"
+        android:layout_below="@+id/tvNombre"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blanco"
+        android:headerBackground="@color/colorPrimary"
+        android:layout_marginTop="@dimen/margintopdatepicker"
+        />
+
+    <EditText
+        android:id="@+id/tvTelefono"
+        android:layout_width="@dimen/nombrewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tvNombre"
+        android:hint="@string/tvTelefono"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="@dimen/telefono"
+        android:layout_below="@id/datepicker"
+        android:layout_marginTop="@dimen/margintoptelefono"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/tvEmail"
+        android:layout_width="@dimen/nombrewidth"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTelefono"
+        android:layout_alignLeft="@id/tvTelefono"
+        android:layout_marginTop="@dimen/margintopemail"
+        android:hint="@string/tvEmail"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="@dimen/telefono"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/tvDescripcion"
+        android:layout_width="@dimen/nombrewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tvEmail"
+        android:hint="@string/tvDescripcion"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="@dimen/descripcion"
+        android:layout_below="@id/tvEmail"
+        android:layout_marginTop="@dimen/margintopdescripcion"
+        >
+    </EditText>
+
+    <Button
+        android:id="@+id/botonSiguiente"
+        android:layout_width="@dimen/nombrewidth"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvDescripcion"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/botonSiguiente"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/botonsiguiente"
+        android:textStyle="bold"
+        >
+    </Button>
+
+
+
+
+</RelativeLayout>
+

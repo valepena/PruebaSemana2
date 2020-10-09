@@ -1,0 +1,23 @@
+<resources>
+    //Activity1//
+    <string name="app_name">PruebaSemana2</string>
+    <string name="tvNombre">Nombre Completo</string>
+    <string name="tvTelefono">Teléfono</string>
+    <string name="tvEmail">Email</string>
+    <string name="tvDescripcion">Descripción Contacto</string>
+    <string name="ButtonOK">OK</string>
+    <string name="ButtonCancel">Cancel</string>
+    <string name="ButtonEditDatos">Editar Datos</string>
+    <string name="botonSiguiente">Siguiente</string>
+
+    //Activity2//
+    <string name="tvConfirmarDatos">Confirmar Datos</string>
+    <string name="tvNombreIngresado">Nombre Completo</string>
+    <string name="tvFechaIngresado">Fecha Nacimiento</string>
+    <string name="tvTelefonoIngresado">Teléfono</string>
+    <string name="tvEmailIngresado">Email</string>
+    <string name="tvDescripcionIngresado">Descripción Ingresada:</string>
+
+
+
+</resources>

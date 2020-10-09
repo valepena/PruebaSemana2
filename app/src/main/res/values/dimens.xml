@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //activity1//
+    <dimen name="nombre">13sp</dimen>
+    <dimen name="nombrewidth">300dp</dimen>
+    <dimen name="telefono">13sp</dimen>
+    <dimen name="email">13sp</dimen>
+    <dimen name="descripcion">13sp</dimen>
+    <dimen name="botonsiguiente">18sp</dimen>
+    <dimen name="margintopnombre">15sp</dimen>
+    <dimen name="margintopdatepicker">10dp</dimen>
+    <dimen name="margintoptelefono">10dp</dimen>
+    <dimen name="margintopemail">10dp</dimen>
+    <dimen name="margintopdescripcion">12sp</dimen>
+    <dimen name="datepickerwidth">300dp</dimen>
+    <dimen name="datepickerheight">200dp</dimen>
+    <dimen name="altobotongrande">3dp</dimen>
+
+    //activity2//
+    <dimen name="confirmardatoswidth">200dp</dimen>
+    <dimen name="nombreingresado">16sp</dimen>
+    <dimen name="fechaingresado">16sp</dimen>
+    <dimen name="nombreingresadowidth">300dp</dimen>
+    <dimen name="telefonoingresado">16sp</dimen>
+    <dimen name="emailingresado">16sp</dimen>
+    <dimen name="descripcioningresado">16sp</dimen>
+    <dimen name="margintopnombreingresado">15sp</dimen>
+    <dimen name="margintopdatepickeringresado">20dp</dimen>
+    <dimen name="margintoptelefonoingresado">20dp</dimen>
+    <dimen name="margintopemailingresado">20dp</dimen>
+    <dimen name="margintopdescripcioningresado">22sp</dimen>
+    <dimen name="botoneddatos">200dp</dimen>
+    <dimen name="tbotoneddatos">18dp</dimen>
+    <dimen name="margintopbotonddatos">60dp</dimen>
+    <dimen name="confirmardatos">25sp</dimen>
+    <dimen name="margintopconfirmardatos">40sp</dimen>
+
+
+
+
+</resources>
